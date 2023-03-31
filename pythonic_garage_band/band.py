@@ -8,6 +8,7 @@ class Musician:
 
 class Guitarist(Musician):
     instrument = "guitar"
+    solo = "face melting guitar solo"
     pass
 
 class Bassist(Musician):
