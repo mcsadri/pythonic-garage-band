@@ -1,5 +1,5 @@
 class Band:
-    def __init__(self, name="unknown", members=[]):
+    def __init__(self, name, members):
         self.name = name
         self.members = members
 
