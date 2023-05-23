@@ -4,7 +4,10 @@ class Band:
         self.members = members
 
     def play_solos(self):
-        pass
+        solos = []
+        for member in self.members:
+            solos.append(member.play_solo())
+        return solos
 
     def __str__(self):
         pass

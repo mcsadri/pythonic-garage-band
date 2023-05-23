@@ -104,7 +104,7 @@ def test_individual_solos(one_band):
             assert member.play_solo() == "rattle boom crash"
 
 
-@pytest.mark.skip("todo")
+# @pytest.mark.skip("todo")
 def test_band_members(one_band):
 
     assert len(one_band.members) == 3
@@ -122,7 +122,7 @@ def test_band_members(one_band):
     assert one_band.members[2].name == "Dave Grohl"
 
 
-@pytest.mark.skip("todo")
+# @pytest.mark.skip("todo")
 def test_play_solos_for_whole_band(one_band):
     solos = one_band.play_solos()
     assert len(solos) == 3
