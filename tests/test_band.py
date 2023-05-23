@@ -85,7 +85,7 @@ def test_drummer():
     assert ginger.get_instrument() == "drums"
 
 
-@pytest.mark.skip("todo")
+# @pytest.mark.skip("todo")
 def test_instruments(one_band):
     instruments = ["guitar", "bass", "drums"]
     for i, member in enumerate(one_band.members):
@@ -93,7 +93,7 @@ def test_instruments(one_band):
         assert member.get_instrument() == instruments[i]
 
 
-@pytest.mark.skip("todo")
+# @pytest.mark.skip("todo")
 def test_individual_solos(one_band):
     for member in one_band.members:
         if member.get_instrument() == "guitar":
